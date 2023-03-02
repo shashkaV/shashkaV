@@ -27,7 +27,7 @@ export default {
     baseURL: 'https://api.telegram.org/bot5129181542:AAEVw_cbrqs0i32-rMY0Be72m97HUghEjJo/'
   },
   build: {
-    publicPath: 'https://shashka.com/'
+    publicPath: 'http://shashkav.com/'
   },
   router: {
     linkActiveClass: 'custom-active-link',
