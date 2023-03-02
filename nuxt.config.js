@@ -1,6 +1,6 @@
 export default {
   head: {
-    title: 'shashka_v',
+    title: 'Карьерное консультирование и коучинг',
     htmlAttrs: {
       lang: 'ru'
     },
