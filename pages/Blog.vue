@@ -4,7 +4,6 @@
 
     <div class="posts">
       <NuxtLink
-        style=""
         :to="`/blog/${post.id}`"
         class="post"
         v-for="post in posts"
@@ -95,6 +94,14 @@
       left: 0;
       right: 0;
       background-color: #ededed;
+    }
+  }
+
+  @media screen and (max-width: 550px){
+    .post {
+      &__image {
+        width: 65%
+      }
     }
   }
 </style>
