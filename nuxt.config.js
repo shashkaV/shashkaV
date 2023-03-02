@@ -33,6 +33,7 @@ export default {
     linkActiveClass: 'custom-active-link',
     linkExactActiveClass: 'custom-exact-active-link',
     router: {
+      mode: 'hash',
       base: '/shashkaV/'
     }
   }
