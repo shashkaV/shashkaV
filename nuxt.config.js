@@ -27,13 +27,12 @@ export default {
     baseURL: 'https://api.telegram.org/bot5129181542:AAEVw_cbrqs0i32-rMY0Be72m97HUghEjJo/'
   },
   build: {
-    publicPath: 'http://shashkav.com/'
+    publicPath: 'https://shashkav.com/'
   },
   router: {
     linkActiveClass: 'custom-active-link',
     linkExactActiveClass: 'custom-exact-active-link',
     router: {
-      mode: 'hash',
       base: '/shashkaV/'
     }
   }
